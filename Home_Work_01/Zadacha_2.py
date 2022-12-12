@@ -12,4 +12,3 @@ while num > 0:
     sum += ost
     num //= 10
 print("Сумма цифр ровна:", sum)
-111
