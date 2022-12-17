@@ -5,5 +5,5 @@
 nun = int(input("Введите число: "))
 i = 1
 while i <= nun:
-    print(i,end=' ')
+    print(i, end=' ')
     i = i * 2
