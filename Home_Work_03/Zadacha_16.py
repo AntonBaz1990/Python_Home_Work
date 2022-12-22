@@ -30,7 +30,7 @@ def FindNum( num):
     return count   
 
 N = int(input("Введите количество элементов в массиве: "))
-X = int(input("Введитеискомую цифру: "))
+X = int(input("Введите искомую цифру: "))
 array = RandomArray(N)
 print(array)
 find_num = FindNum(X)          
