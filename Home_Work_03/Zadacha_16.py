@@ -14,7 +14,7 @@ def RandomArray(n) :
     m = []
     eagle = 0 
     for i in range(0, n):
-        random_num = round(random.randint(0, n//2))
+        random_num = round(random.randint(1, n//2))
         m.append(random_num)
     return m    
 
