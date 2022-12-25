@@ -33,7 +33,7 @@ setB = set(array2)
 res1 = setA & setB
 print(res1)
 
-# Альтернативная решение вывода пересечения множеств
+# Альтернативное решение вывода пересечения множеств
 setA.intersection(setB)
 res2 = setA.intersection(setB)
 print(res2)
