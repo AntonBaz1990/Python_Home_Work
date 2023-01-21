@@ -3,7 +3,7 @@ import time
 from sys import platform
 
 PHONEBOOKFILE = "phonebook.txt" #имя файла справочника
-VERSION = "1.1" 
+
 
 def clear_screen():
     '''очистка экрана (кроссплатформенная)'''
@@ -160,7 +160,7 @@ def del_data_by_number():
 
 if __name__ == "__main__":
     # основной блок
-    menu = (f"Телефонный справочник. v.{VERSION}\n\n"
+    menu = (f"Телефонный справочник.\n"
             "Введите команду\n"
             "P - Вывод данных\n"
             "A - Добавление записи\n"
