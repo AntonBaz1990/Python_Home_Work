@@ -4,7 +4,7 @@ os.system('cls')
 from telegram.ext import ApplicationBuilder, CommandHandler
 from bot_commands import *
 
-app = ApplicationBuilder().token("     ").build()
+app = ApplicationBuilder().token("...................").build()
 
 app.add_handler(CommandHandler("start", start_command))
 app.add_handler(CommandHandler("time", time_command))
